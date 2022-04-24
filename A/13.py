@@ -1,0 +1,5 @@
+n1 = int(input('Digite a altura: '))
+n2 = int(input('Digite a largura: '))
+n3 =(n1*n2)
+n4 =(n3/2)
+print('Área: {}M²\nVocê precisa de {} litros de tinta.' .format(n3, n4))

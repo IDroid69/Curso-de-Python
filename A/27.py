@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ')
+n0 = frase.strip()
+n1 = n0.count('a')
+n2 = n0.find('a')
+n3 = n0.rfind('a')
+print('Letra [a] aparece {} vezes' .format(n1))
+print('Letra [a] começa na posição {} e termina na posição {}' .format(n2, n3))
